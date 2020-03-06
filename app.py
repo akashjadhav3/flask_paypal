@@ -5,8 +5,8 @@ app=Flask(__name__)
 
 paypalrestsdk.configure({
   "mode": "sandbox", # sandbox or live
-  "client_id": "AczmCkpo9D4Q4OoggedheZ1uE0ugMWybo9xoRnOnhP3dIVBLjUt8TqkHmtEP28zU0vVOavKJBwfsvCML",
-  "client_secret": "EIyySRqipXpPq_oqyMz9JQ-H1c1TZuegwbd_0FZqMFALwMCa6onDcBaYm4sf7_BERTaePS_kb3-2ZMqZ" })
+  "client_id": "",
+  "client_secret": "" })
 
 @app.route('/')
 def index():
